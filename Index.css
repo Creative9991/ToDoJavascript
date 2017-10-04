@@ -1,0 +1,11 @@
+.container{overflow: hidden}
+
+p{
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+}
+
+tr,th{
+    text-align: center;
+}

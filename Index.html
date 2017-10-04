@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>To-Do App</title>
+    <script src="Index.js"></script>
+    <link rel="stylesheet" href="Index.css">
+</head>
+<body>
+<br>
+<div class="container">
+    <p>To-Do App Javascript</p>
+    <div class="col-sm-12">
+        <div class="col-sm-8">
+            <table class="table table-bordered" id="table">
+                <tr>
+                    <th>Employee name</th>
+                    <th>Email</th>
+                    <th>Position</th>
+                    <th>Action</th>
+                </tr>
+            </table>
+
+        </div>
+                <div class="col-sm-4">
+                    <form>
+                    <label for="name">Employee Name</label>
+                    <input class="form-control" id="name" type="text" required>
+                    <label for="name">Email</label>
+                    <input class="form-control" id="email" type="email" required>
+                    <label for="name">Position</label>
+                    <input class="form-control" id="position" type="text" required>
+                    </form><br>
+                    <button type="button" class="btn btn-primary" onclick="addHtmlTableRow();">Add</button>
+                    <button type="button" class="btn btn-danger"onclick="editHtmlTableRow();">Edit</button>
+                </div>
+    </div>
+</div>
+</body>
+</html>
